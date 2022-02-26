@@ -1,0 +1,272 @@
+.container-form-contact{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+
+.container-form{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  border-radius: 12px;
+  width: 235px;
+  margin-bottom: 30px;
+  .form-logo{
+    display: flex;
+    justify-content: center;
+    img{
+      width: 48px;
+      height: 48px;
+    }
+  }
+  .form-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    h1{
+      font-size: 130%;
+      
+    }
+  }
+  .form-btn{
+    display: flex;
+    justify-content: center;
+    button{
+      background-color: #6947f3;
+      color: white;
+      font-weight: 500;
+      border: none;
+      border-radius: 10%/50%;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      font-size: 120%;
+      font-weight: bold;
+      transition: 1s;
+      &:hover{
+        background-color: #9076fa;
+        border-radius: 0px;
+        transition: 1s;
+      }
+    }
+  }
+  i{
+    color: #6947f3;
+  }
+  label{
+    font-size: 110%;
+  }
+}
+
+
+.container-contact{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 240px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .photo-contact{
+      height: 100px;
+      width: 100px;
+      background-image: url(../images/qui/enzo2.jpg);
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+
+    }
+    p{
+      margin-top: 10px;
+      font-size: 110%;
+      color: #6947f3;
+      font-weight: bold;
+    }
+  }
+
+  .contact-right{
+
+    .titre-contact-content{
+      display: flex;
+      justify-content: center;
+      h3{
+        
+
+      }
+    }
+
+    .flex-contact{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .flex-contact-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+
+      i{
+        margin-right: 5px;
+        font-size: 110%;
+        color: #6947f3;
+
+      }
+      p{
+        margin: 0;
+        font-size: 110%;
+      }
+    }
+
+    .flex-contact-content2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      i{
+        font-size: 120%;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #6947f3;
+        margin-top: 15px;
+      }
+    }
+    
+    
+  }
+  
+}
+
+@media screen and (min-width:450px) {
+  .container-form{
+    width: 270px;
+  }
+
+  .container-contact{
+    width: 270px;
+  }
+}
+
+@media screen and (min-width:450px) {
+  .container-form{
+    width: 310px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .container-contact{
+    display: flex;
+    width: 470px;
+    justify-content: space-between;
+    flex-direction: initial;
+
+    
+  }
+}
+
+}
+
+.contactp-email{
+  font-size: 90%;
+}
+
+
+@media screen and (min-width:710px){
+  .container-form-contact{
+    flex-direction: initial;
+    width: 100%;
+    justify-content: space-around;
+
+    .container-form{
+      margin-bottom: 0px;
+      
+    }
+
+    .container-contact{
+      margin-top: 0px;
+    }
+
+    
+  }
+
+}
+
+@media screen and (min-width:1000px){
+  .flex-container-contact{
+    display: flex;
+    justify-content: center;
+
+    .container-form-contact{
+      width: 1000px;
+    }
+  }
+}
+
+
+
+.form-btn-custom{
+  display: flex;
+  justify-content: center;
+  
+button {
+  outline: none;
+  margin-top: 10px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  border: 2px solid #6947f3;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 12%/50%;
+  font-weight: bold;
+}
+
+/* 10 */
+.btn-10 {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn-10:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(.1);
+  transform: scale(.1);
+}
+.btn-10:hover {
+  color: #fff;
+}
+.btn-10:hover:after {
+  background: #6947f3;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+}

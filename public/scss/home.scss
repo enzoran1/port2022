@@ -1,0 +1,242 @@
+.center-ban{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .ban{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .ban h1{
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .ban svg{
+  
+    width: 200px;
+    height: 170px;
+    
+  }
+  
+  
+  .box {
+      margin: auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      width: 196px;
+      height: 100px;
+      line-height: 100px;
+      color: white;
+      position: absolute;
+      user-select: none;
+      
+  }
+  
+  
+    #demo {
+      margin: auto;
+      width:100%;
+      
+    
+      position:relative;
+      margin-top:10px;
+    }
+  
+    label {
+      font-size:20px;
+    }
+  
+  
+  
+    .cardWrapper{
+      width: 180px;
+      height: 180px;
+      position: relative;
+      cursor: pointer;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    
+     
+     
+  }
+  
+    .cardFace{
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: #0000003d 0px 3px 8px;
+      
+    
+  
+     
+  }
+  
+    .front{
+      background-color: #fff;
+      border-radius: 50px;
+    
+    
+    
+    }
+  
+    .back{
+      background-color:#fff;
+      border-radius: 50px;
+      background-image: url(../../images/home/backgroud-car-home.jpg);
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: #0000003d 0px 3px 8px;
+      
+    
+    
+     
+  }
+  
+  .back a{
+    text-decoration: none;
+    background-color: #6947f3;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    
+  
+  }
+  
+  .back-reseau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .back-reseau a{
+    background-color: transparent;
+  }
+  
+  .back a:hover{
+    color: white;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  
+  
+  
+    .cardFace h3{
+      color: #4723D9;
+      font-weight: bold;
+      font-size: 120%;
+    }
+  
+    .cardFace i{
+        font-size: 300%;
+    }
+    .container-flex1{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      margin-top: 30px;
+     
+      
+    }
+  .container-card-flex{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(248, 248, 248);
+      border-radius: 12px;
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+    .container-card-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-items: center;
+        
+      
+    }
+  
+   @media screen and (min-width:530px) {
+     
+      .container-card-grid{
+        grid-template-columns: 1fr 1fr;
+      }
+   }
+  
+   @media screen and (min-width:630px){
+      .ban{
+        flex-direction: initial;
+        justify-content: space-around;
+      }
+  
+      .ban h1{
+        font-size: 200%;
+      }
+      .ban svg{
+        width: 240px;
+        height: 220px;
+      }
+   }
+   @media screen and (min-width:750px) {
+     
+    .container-card-grid{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  
+  @media screen and (min-width:900px) {
+     
+    .container-card-flex{
+      width: 900px;
+    }
+  
+    .ban h1{
+      font-size: 230%;
+    }
+    .ban svg{
+      width: 270px;
+      height: 240px;
+    }
+  }
+  
+  
+  @media screen and (min-width:1100px) {
+     
+   
+  
+    .ban h1{
+      font-size: 250%;
+    }
+    .ban svg{
+      width: 300px;
+      height: 270px;
+    }
+  }
+  
+  @media screen and (min-width:1200px){
+    .ban{
+      width: 1200px;
+    }
+  }
+  
+  
+  
+  
